@@ -1,0 +1,21 @@
+name: mlph4
+channels:
+  - defaults
+  - pytorch
+  - conda-forge
+dependencies:
+  - jupyter
+  - pip
+  - matplotlib
+  - python=3.9
+  - numpy
+  - scikit-learn
+  - pytorch
+  - cpuonly
+  - torchvision
+  - h5py
+  - tqdm
+  - ffmpeg
+  - pip:
+    - celluloid
+
